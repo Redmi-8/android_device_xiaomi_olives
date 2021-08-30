@@ -4,9 +4,26 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+cc_defaults {
+    name: "libinit_sdm439_defaults",
+    include_dirs: [
+        "system/core/base/include",
+        "system/core/init"
+    ],
+    shared_libs: ["libbase"],
+    recovery_available: true,
+}
+
+cc_library_static {
+    name: "libinit_sdm439",
+    defaults: ["libinit_sdm439_defaults"],
+    srcs: ["libinit_sdm439.cpp"],
+    export_include_dirs: ["include"],
+}
+
 cc_library_static {
     name: "libinit_olives",
-    defaults: ["//device/xiaomi/sdm439-common:libinit_sdm439_defaults"],
+    defaults: ["//device/xiaomi/olive:libinit_sdm439_defaults"],
     srcs: ["init_olives.cpp"],
-    whole_static_libs: ["//device/xiaomi/sdm439-common:libinit_sdm439"],
+    whole_static_libs: ["//device/xiaomi/olive:libinit_sdm439"],
 }
