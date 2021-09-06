@@ -2693,24 +2693,6 @@ vendor/etc/camera/ov8856_bear_chromatix.xml
 vendor/etc/camera/ov8856_chromatix.xml
 vendor/etc/camera/ov8858_chromatix.xml
 vendor/etc/camera/ov8865_chromatix.xml
-vendor/etc/camera/pine_gc5035_holitech_chromatix_factory.xml
-vendor/etc/camera/pine_gc5035_holitech_chromatix.xml
-vendor/etc/camera/pine_gc5035_ofilm_chromatix_factory.xml
-vendor/etc/camera/pine_gc5035_ofilm_chromatix.xml
-vendor/etc/camera/pine_gc5035_qtech_chromatix_factory.xml
-vendor/etc/camera/pine_gc5035_qtech_chromatix_india.xml
-vendor/etc/camera/pine_gc5035_qtech_chromatix.xml
-vendor/etc/camera/pine_imx486_holitech_chromatix_factory.xml
-vendor/etc/camera/pine_imx486_holitech_chromatix.xml
-vendor/etc/camera/pine_imx486_ofilm_chromatix_factory.xml
-vendor/etc/camera/pine_imx486_ofilm_chromatix.xml
-vendor/etc/camera/pine_imx486_qtech_chromatix_factory.xml
-vendor/etc/camera/pine_imx486_qtech_chromatix_india.xml
-vendor/etc/camera/pine_imx486_qtech_chromatix.xml
-vendor/etc/camera/pine_ov13855_ofilm_chromatix_factory.xml
-vendor/etc/camera/pine_ov13855_ofilm_chromatix.xml
-vendor/etc/camera/pine_ov13855_qtech_chromatix_factory.xml
-vendor/etc/camera/pine_ov13855_qtech_chromatix.xml
 vendor/etc/camera/s5k2l7_8953_chromatix.xml
 vendor/etc/camera/s5k2l7_chromatix.xml
 vendor/etc/camera/s5k2l7sx_chromatix.xml
@@ -2724,20 +2706,6 @@ vendor/etc/camera/s5k3m3sm_chromatix.xml
 vendor/etc/camera/s5k3p3sm_chromatix.xml
 vendor/etc/camera/s5k3p8sp_chromatix.xml
 vendor/etc/camera/s5k5e9yu05_mono_chromatix.xml
-
-# Consumer IR
-vendor/lib64/hw/consumerir.default.so
-
-# Fingerprint
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/hw/fingerprint.default.so
-vendor/lib64/hw/gf_fingerprint.default.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib/com.fingerprints.extension@1.0.so
 
 # Firmwares
 vendor/firmware/aw87519_rcv.bin
